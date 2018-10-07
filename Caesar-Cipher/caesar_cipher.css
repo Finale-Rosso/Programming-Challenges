@@ -1,0 +1,119 @@
+/* Contains style information for caesar_cipher.htm */
+
+
+body { /* prevents anything in the body from being highlighted */
+	-webkit-user-select : none;
+	-moz-user-select : -moz-none;
+	-ms-user-select : none;
+	user-select : none;
+}
+
+h1 {
+	box-sizing : border-box;
+	margin : 0;
+	padding : 8px;
+	width : 1028px;
+	text-align : center;
+	background-color : #333;
+	color : White;
+}
+
+input, textarea {
+	-moz-user-select: text;
+}
+
+.container {
+	display : flex;
+	flex-direction : column;
+	width : 1028px;
+	height : 512px;
+	background-color : #444;
+	justify-content : center;
+	align-items : center;
+}
+
+.container textarea {
+	box-sizing : border-box;
+	width : 90%;
+	height : 40%;
+	padding : 12px;
+	background-color : #333;
+	color : White;
+	resize : none;
+}
+
+.center {
+	display : flex;
+	box-sizing : border-box;
+	height : 10%;
+	justify-content : center;
+	align-items : center;
+}
+
+.center  button {
+	width : 96px;
+	margin : 8px;
+	padding : 4px 16px;
+}
+
+.center input {
+	margin : 8px;
+}
+
+button, input {
+	background-color : #333;
+	color : White;
+}
+
+#key {
+	width : 64px;
+	text-align : center;
+	background-color : #333;
+	color : White;
+}
+
+#clearPlain, #clearCipher {
+	font-family: "Times New Roman", Times, serif;
+	margin : 0px;
+	padding : 0px;
+	z-index : 1;
+}
+
+#clearPlain {
+	align-self : flex-start;
+	border-top : none;
+	margin-top : -3px;
+}
+
+#clearCipher {
+	align-self : flex-end;
+	border-bottom : none;
+	margin-bottom : -3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

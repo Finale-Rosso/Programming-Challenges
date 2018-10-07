@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>Caesar Cipher</title>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" href="caesar_cipher.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<h1>C<small>AESAR</small> C<small>IPHER</small> T<small>OOL</small></h1>
+<!--   testing area   -->
+<div class="container">
+
+<textarea id="plaintext"></textarea>
+
+<div class="center">
+	<button id="clearPlain" onclick="Clear('plaintext')">C<small>LEAR</small></button>
+	<button id="randEncrypt" onclick="Encrypt(true)"><i class="fa fa-level-down"></i> R<small>ANDOM</small></button>
+	<button id="encrypt" onclick="Encrypt(false)"><i class="fa fa-level-down"></i> E<small>NCRYPT</small></button>
+	<input id="key" type="number" name="key" min="0" max="25" value="0" onchange="Validate(this)">
+	<button id="decrypt" onclick="Decrypt()">D<small>ECRYPT</small> <i class="fa fa-level-up"></i></button>
+	<button id="forceDecrypt" onclick="ForceDecrypt()">F<small>ORCE</small> <i class="fa fa-level-up"></i></button>
+	<button id="clearCipher" onclick="Clear('ciphertext')">C<small>LEAR</small></button>
+</div>
+
+<textarea id="ciphertext"></textarea>
+</div>
+<!-- end testing area -->
+
+
+<script src="caesar_cipher.js"></script>
+
+</body>
+</html>
